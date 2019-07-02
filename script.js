@@ -1,4 +1,4 @@
-var blacklist = ['brew install', 'brew update']
+var blacklist = ['いかがでしたか？', 'いかがでしたでしょうか？','いかがでしたか?','いかがでしたでしょうか?']
 
 $.each(blacklist,function(index,val){
 	var text = $("div.itemsShowBody").text();
